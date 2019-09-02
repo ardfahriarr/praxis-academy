@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="app">
+        {{ genre ? 'Laki-laki' : 'Perempuan' }}
+        {{ nama }} - {{ umur }}
+        <div v-html="monyet"></div>
+        {{ nama + " ardianto" }}
+    </div>
+
+    
+
+    <script type="text/javascript"src="vue.js"></script>
+    <script>
+        var vo = new Vue({
+            el  : "#app",
+            data: {
+                nama    : "fahri",
+                umur    : 100,
+                monyet  : "<h4><p>mantap djhiwaa</p></h4>",
+                genre   : false
+            },
+        });
+    </script>
+</body>
+</html>
