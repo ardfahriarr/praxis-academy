@@ -1,4 +1,4 @@
-// Note : Tidak bisa dijalankan secara bersamaan, hilangkan comment mark untuk 4
+// Note : Tidak bisa dijalankan secara bersamaan, hilangkan comment mark untuk running
 let MyHeading = document.querySelector("h1")
 try{
     // nomor 1
@@ -178,15 +178,16 @@ try{
     // console.log(gcd);
 
     // Nomor 12
-    // var sum = 0;
-    // for (var x = 0; x < 1000; x++)
-    // {
-    //     if (x % 3 === 0 || x % 5 === 0)
-    //     {
-    //     sum += x;
-    //     }
-    // }
-    // console.log(sum);
+    var sum = 0;
+    for (var x = 0; x < 1000; x++)
+    {
+        if (x % 3 === 0 || x % 5 === 0)
+        {
+        sum += x;
+        }
+    }
+    console.log(sum);
+    
 } catch(e) {
     console.log(e.name)
     console.log(e.message)
