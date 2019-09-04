@@ -1,2 +1,2 @@
-Soal latihan baru beberapa yang sudah dikerjakan
-Kasus done.
+- Soal latihan baru beberapa yang sudah dikerjakan
+- Kasus done.
